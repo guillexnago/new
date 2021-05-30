@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body {font-family: 'Arial', sans-serif;}
+#navbar-main {transition: background-color 250ms ease;}
+.bg-black {background-color: #ffffff;}
+.centro1 {text-align: left;}
+.c1:nth-child(even)::after,
+.c1:nth-child(odd)::before {display: block; padding: 4px; width: 100%;  font-size: 1.5em; background-color: #65F301; font-family: text-align: center;}
+.carousel-item {width: 100%;  height: 100%; }
+.carousel-item > img {width: 100%; height: 100%; object-fit: cover;}
+.imginfo {height: 30px;}
+.my-3 {overline;}
+.center2{display:block;margin:auto;}
+.blog .carousel-indicators {
+left: 0;
+top: auto;
+bottom: -40px;
