@@ -10,19 +10,7 @@ $(function(){
         });
       }
     });
-    $(document).dblclick(function(){
-  	  $("h2").on({
-  	    dblclick: function(){
-  	      $(this).css("color", "#900000");
-  	    }
-  	  });
-  	});
 
-    $(document).ready(function(){
-  	  $("h5").click(function(){
-  	    $("p").toggle(1500);
-  	  });
-  	});
 
     $('#navbarNav').on('show.bs.collapse', function() {
       $('#navbar-main').addClass('bg-dark');
